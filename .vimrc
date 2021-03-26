@@ -30,6 +30,7 @@ call plug#begin('~/.vim/plugged')
   Plug 'joshdick/onedark.vim'
   Plug 'vim-airline/vim-airline'
   Plug 'sheerun/vim-polyglot'
+  Plug 'frazrepo/vim-rainbow'
 call plug#end()
 
 
@@ -45,3 +46,4 @@ endif
 
 colorscheme onedark
 let g:airline_theme='onedark'
+let g:rainbow_active = 1
